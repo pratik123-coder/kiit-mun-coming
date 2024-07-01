@@ -15,7 +15,7 @@ export default function Home() {
         muted
       />
       <div className="relative z-10 h-full p-6 flex flex-col justify-center items-center space-y-8 max-w-screen-xl mx-auto">
-        <Image src={logo} alt="logo" width={250} height={250} className="pt-12 lg:pt-20 h-50 w-40 lg:w-52" />
+        <Image src={logo} alt="logo" width={250} height={250} className="pt-12 h-50 w-40 lg:w-52" />
         <Image src={ok} alt="ok" width={1000} height={200} className="animate-pulse" />
         <p className="text-sm md:text-lg text-center leading-relaxed md:leading-loose px-4">
           In a world yearning for unity, the <span>12th edition of KIIT International MUN</span> is set to be the most thrilling yet! Join passionate delegates from around the globe in <span className="underline">electrifying debates</span> and groundbreaking collaborations.
