@@ -29,9 +29,8 @@ export default function Home() {
         muted
       />
       <div className="relative z-10 h-full flex flex-col justify-center items-center space-y-8 max-w-screen-xl mx-auto p-20">
-        <Image src={logo} alt="logo" width={250} height={250} className="pt-12 w-28 lg:w-52" />
-        <Image src={ok} alt="ok"  height={200} className="absolute top-60 p-7 lg:w-2/4 lg:top-64"/>
-        <div className="pt-20">
+        <Image src={logo} alt="logo" width={250} height={250} className="pt-12 h-50 w-40 lg:w-52" />
+        <Image src={ok} alt="ok" width={1000} height={200} />
         <p className="text-sm md:text-lg text-center leading-relaxed md:leading-loose px-4">
         KIIT International MUN returns for a thrilling 12th edition! Join global delegates for electrifying debates & groundbreaking collaborations to shape a united future. Feel the adrenaline, embrace the challenge, and leave your mark.<br/>
 
@@ -39,7 +38,6 @@ export default function Home() {
 
         Stay tuned to our social media handles for exciting updates and exclusive insights.
         </p>
-        </div>
         <div className="flex gap-2.5  transform translate-y-[5%]  p-2.5 border border-solid bg-[linear-gradient(146deg,#000917_0.05%,#103E4B_50%,#030915_100%)] border-zinc-900 rounded-[100px]">
           <SocialIcon 
             imageUrl="https://res.cloudinary.com/dwv6dsqle/image/upload/v1718704173/insta_rmtdno.png" 
